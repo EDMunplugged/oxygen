@@ -24,3 +24,5 @@ The [MIT License](https://github.com/aguynamedruchir/oxygen/blob/master/LICENSE)
 
 Uses some code from [Bootstrap](http://getbootstrap.com) and [Foundation](http://foundation.zurb.com/).
 Icons by [IcoMoon](http://icomoon.io/)
+
+For feedback, suggestions, compliments, complaints, help, or just hellos, shoot a [mail](mailto:aguynamedruchir@gmail.com) or [tweet](https://twitter.com/aguynamedruchir).
