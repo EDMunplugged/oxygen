@@ -22,5 +22,5 @@ Airy, responsive and super-customizable
 ## License & Notes
 The [MIT License](https://github.com/aguynamedruchir/oxygen/blob/master/LICENSE) - Copyright (c) 2014 [Ruchir L. Sharma](http://aguynamedruchir.com).
 
-Uses some code from [Bootstrap](http://getbootstrap.com) and [Foundation](http://foundation.zurb.com/)
+Uses some code from [Bootstrap](http://getbootstrap.com) and [Foundation](http://foundation.zurb.com/).
 Icons by [IcoMoon](http://icomoon.io/)
