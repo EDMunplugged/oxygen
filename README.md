@@ -1,7 +1,7 @@
 Oxygen (Tumblr theme)
 =====================================
 
-![Preview](https://38.media.tumblr.com/themes/screenshots/1rfxy0v/57de2c59aae51d68d5ba31459317cc55.png)
+![Preview](http://aguynamedruchir.com/img/projects/themes/oxygen_preview.png)
 
 ## About
 Airy, responsive and super-customizable
