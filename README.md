@@ -6,7 +6,7 @@ Oxygen (Tumblr theme)
 ## About
 Airy, responsive and super-customizable
 
-- [Install On Tumblr](https://www.tumblr.com/theme/39065)
+- [Install On Tumblr](https://www.tumblr.com/theme/39067)
 - [Demo](http://oxygen-theme.tumblr.com/)
 
 ## Features
