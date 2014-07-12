@@ -10,11 +10,16 @@ Airy, responsive and super-customizable
 - [Demo](http://oxygen-theme.tumblr.com/)
 
 ## Features
-* Clean and minimalistic
+* All Post Types
 * Responsive Two-column Layout
 * 3 Header styles - Blank, Image, and Accent
 * Like and Reblog Buttons
+* High Res
+* Localization
+* Search
+* Tags
 * Custom Fonts from Google Web Fonts
+* Custom Colors
 * Disqus and Google Analytics Support
 * Works with Tumblr Global Styles
 * Built with Bootstrap
