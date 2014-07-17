@@ -110,7 +110,7 @@
 			}
 
 			img.circle{
-				border-radius:1000px;
+				border-radius:100%;
 			}
 			
 			img.square{
@@ -300,9 +300,19 @@
 				background:{color:Footer Background};
 				padding:2.5em 0;
 			}
+			
 			.nav > li > a:hover, .nav > li > a:focus{
 				background:rgba(0,0,0,0.2) !important;
 			}
+			
+			.footer.circle .nav > li > a{
+				border-radius:4px;
+			}
+			
+			.footer.square .nav > li > a{
+				border-radius:0px;
+			}
+			
 			.footer input, .footer .btn{
 				padding:9px 10px;
 				height:40px;
@@ -317,18 +327,24 @@
 
 			.footer input{
 				width:80%;
-				border-radius:4px 0 0 4px;
 				background:rgba(0,0,0,0.2);
 			}
 
 			.footer .btn{
 				width:20%;
-				border-radius:0 4px 4px 0;
 				background:rgba(0,0,0,0.2);
 				position:relative;
 				top:-1px;
 				transition:0.2s all ease;
 				-webkit-transition:0.2s all ease;
+			}
+			
+			.footer.circle input{
+				border-radius:4px 0 0 4px;
+			}
+			
+			.footer.circle .btn{
+				border-radius:0 4px 4px 0;
 			}
 
 			.footer .btn:hover, .footer .btn:active, .footer .btn:focus {
@@ -505,7 +521,10 @@
 				width:90%;
 				float:left;
 				margin-bottom:1em;
-				border-radius:0.2em;
+			}
+			
+			ol.chat.bubble.circle li{
+				border-radius:4px;
 			}
 
 			ol.chat.bubble li:last-child{
@@ -559,7 +578,7 @@
 			}
 			
 			ol.notes.circle li .avatar_frame img{
-				border-radius:1000px;
+				border-radius:100%;
 			}
 			
 			ol.notes blockquote{
@@ -567,18 +586,25 @@
 			}
 			
 			div.circle ol.notes li .avatar_frame img{
-				border-radius:200px;
+				border-radius:100%;
 			}
 
 			.pager li a{
 				border:1px solid rgba(0,0,0,0.1);
 				color:{color:Secondary Color}; 
 				background:transparent;
-				border-radius:7px;
 				transition:0.1s all ease;
 				-webkit-transition:0.1s all ease;
 			}
-
+			
+			.pager.square li a{
+				border-radius:0px;
+			}
+			
+			.pager.circle li a{
+				border-radius:4px;
+			}
+			
 			.pager li a:hover, .pager li a:active, .pager li a:focus {
 				background:{AccentColor}; 
 				border-color:{AccentColor}; 
@@ -834,7 +860,7 @@
 					
 					{block:Chat}
 					{block:Title}<h3><a href="{Permalink}"></a></h3>{/block:Title}
-					<ol class="chat {select:Chat Style}" >
+					<ol class="chat {AvatarShape} {select:Chat Style}" >
 						{block:Lines}<li class="{Alt}" >{block:Label}<span class="speaker" >{Label}</span>{/block:Label} {Line}</li>{/block:Lines}
 					</ol>
 					{/block:Chat}
@@ -908,7 +934,7 @@
 			{block:Pagination}
 			<div class="post row">
 			<div class="col-sm-9 col-sm-offset-3">
-				<ul class="pager">
+				<ul class="pager {AvatarShape}">
 					{block:PreviousPage}<li class="previous"><a href="{PreviousPage}"><span class="icon-arrow-left" ></span><span class="hidden-xs" > {lang:Previous}</span></a></li>{/block:PreviousPage}
 						<li class="centered pageno"><a href="#">{lang:Page CurrentPage of TotalPages}</a></li>
 					{block:NextPage}<li class="next"><a href="{NextPage}"><span class="hidden-xs" >{lang:Next} </span><span class="icon-arrow-right" ></span></a></li>{/block:NextPage}
@@ -920,7 +946,7 @@
 		</div>
 		
 		
-		<footer class="footer" ><div class="container "><div class="row ">
+		<footer class="footer {AvatarShape}" ><div class="container "><div class="row ">
 		<aside class="col-sm-3" >
 			
 			{block:IfShowTumblrLogoInFooter}
