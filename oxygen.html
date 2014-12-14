@@ -22,23 +22,48 @@
         <link rel="apple-touch-icon" href="{PortraitURL-128}">
 		<link rel="alternate" type="application/rss+xml" href="{RSS}">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="viewport" content="width=device-width">
 		
 		<meta name="color:Text Color" content="#333" />
 		<meta name="color:Secondary Color" content="#999" />
 		<meta name="color:Body Background" content="#fff" />
 		<meta name="color:Footer Background" content="#333" />
 		
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Arimo:300,400,700); body{font-family:'Proxima Nova', Arimo, sans-serif}" title="Proxima Nova" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Arimo:300,400,700); body{font-family:Helvetica, Arimo, sans-serif}" title="Helvetica" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Arimo:300,400,700); body{font-family:Arimo, sans-serif}" title="Arimo" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700); body{font-family:'Open Sans', sans-serif}" title="Open Sans" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700); body{font-family:Lato, sans-serif}" title="Lato" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700); body{font-family:'Merriweather', serif}" title="Merriweather" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Lora:300,400,700); body{font-family:'Lora', serif}" title="Lora" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Bitter:300,400,700); body{font-family:Bitter, serif}" title="Bitter" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700); body{font-family:Josefin Slab, serif}" title="Josefin Slab" />
-		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:300,400,700); body{font-family:Ubuntu Mono, monospace}" title="Ubuntu Mono" />
+		<!-- System Fonts + Fallback -->
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Arimo:300,400,700); body{font-family: 'Proxima Nova', Arimo, sans-serif;}" title="Proxima Nova" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Arimo:300,400,700); body{font-family: 'Helvetica Neue', Helvetica, Arimo, sans-serif;}" title="Helvetica Neue" />
+
+		<!-- Google Fonts Sans-serif -->
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Arimo:300,400,700); body{font-family: Arimo, sans-serif;}" title="Arimo" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Cabin:300,400,700); body{font-family: 'Cabin', sans-serif;}" title="Cabin" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Exo:300,400,700); body{font-family: 'Exo', sans-serif;}" title="Exo" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,700); body{font-family: 'Fira Sans', sans-serif;}" title="Fira Sans" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700); body{font-family: 'Josefin Sans', sans-serif;}" title="Josefin Sans" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700); body{font-family: Lato, sans-serif;}" title="Lato" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Muli:300,400,700); body{font-family: Muli, sans-serif;}" title="Muli" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700); body{font-family: 'Open Sans', sans-serif;}" title="Open Sans" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700); body{font-family: 'Raleway', sans-serif;}" title="Raleway" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700); body{font-family: 'Roboto', sans-serif;}" title="Roboto" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700); body{font-family: 'Source Sans Pro', sans-serif;}" title="Source Sans Pro" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700); body{font-family: 'Ubuntu', sans-serif;}" title="Ubuntu" />
+		
+		<!-- Google Fonts Serif -->
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Alegreya:300,400,700); body{font-family: 'Alegreya', serif;}" title="Alegreya" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:300,400,700); body{font-family: 'Libre Baskerville', serif;}" title="Libre Baskerville" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Lora:300,400,700); body{font-family: 'Lora', serif;}" title="Lora" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700); body{font-family: 'Merriweather', serif;}" title="Merriweather" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Vollkorn:300,400,700); body{font-family: 'Vollkorn', serif;}" title="Vollkorn" />
+		
+		<!-- Google Fonts Slab-serif -->
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Bitter:300,400,700); body{font-family: Bitter, serif;}" title="Bitter" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700); body{font-family: Josefin Slab, serif;}" title="Josefin Slab" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700); body{font-family: Roboto Slab, serif;}" title="Roboto Slab" />
+		
+		<!-- Google Fonts Monospace -->
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:300,400,700); body{font-family: Anonymous Pro, monospace;}" title="Anonymous Pro" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Inconsolata:300,400,700); body{font-family: Inconsolata, monospace;}" title="Inconsolata" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700); body{font-family: Source Code Pro, monospace;}" title="Source Code Pro" />
+		<meta name="select:Font" content="@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:300,400,700); body{font-family: Ubuntu Mono, monospace;}" title="Ubuntu Mono" />
 		
 		<meta name="select:Header Style" content="header-bg" title="Image" />
 		<meta name="select:Header Style" content="" title="Blank" />
@@ -54,7 +79,9 @@
 		<meta name="if:Avatar Border" content="1" />
 		<meta name="if:Show Tags" content="0" />
 		<meta name="if:Show Post Authors" content="0" />
-		<meta name="if:Show Like and Reblog Buttons" content="1" />
+		<meta name="if:Show Like Button" content="1" />
+		<meta name="if:Show Reblog Button" content="1" />
+		<meta name="if:Show Share Button" content="1" />
 		<meta name="if:Full Dates On Posts" content="1" />
 		
 		<meta name="text:Disqus Shortname" content="" />
@@ -62,8 +89,8 @@
 	</head>
 	<body >
 		
-		<link rel="stylesheet" href="http://static.tumblr.com/d7ounoy/oNzn8i52k/aguynamedruchir-bootstrap.css"></link>
-		<link rel="stylesheet" href="http://static.tumblr.com/d7ounoy/6zZn8ji21/oxygen-icons.css"></link>
+		<link rel="stylesheet" href="http://static.tumblr.com/d7ounoy/ZMKngk2l4/bootstrap.min.css"></link>
+		<link rel="stylesheet" href="http://static.tumblr.com/d7ounoy/5ozngk67a/oxygen-icons.css"></link>
 		
 		<style>
 			{select:Font}
@@ -676,30 +703,78 @@
 
 			}
 			
-			.heart-reblog{
+			.post-info span[class^="icon-"]{
+				position: relative;
+				top: 3px;
+				margin-right: 2px;
+			}
+
+			.post-actions{
 				margin-top:1.25em;
 				width:100%;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-align-items: center;
+				align-items: center;
+		 		-webkit-justify-content: flex-end; 
+				 justify-content:flex-end;
 			}
-			
-			.heart-reblog a:hover, .heart-reblog a:active, .heart-reblog a:focus {
+
+			.post-actions a:hover, .post-actions a:active, .post-actions a:focus {
 				background:transparent !important;
 			}
 			
-			.heart-reblog .btn-like, .heart-reblog .btn-reblog {
-				display:inline-block;
+			.post-actions .btn-like, .post-actions .btn-reblog, .post-actions .btn-share {
 				padding-left:1.25em;
 			}
 			
+			.btn-like{
+				position: relative;
+				top: 4px;
+			}
+			
+			.btn-share .dropdown-menu {
+				top: -10%;
+				left: 1em;
+				box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+			}
+			
+			.icon-share {
+				top: 0px !important;
+			}
+
+			.btn-share .dropdown-toggle{
+				color: #CCCCCC !important;
+				font-size: 1.425em;
+				position: relative;
+				top: 1px;
+			}
+			
+			.btn-share .dropdown-toggle:hover {cursor: pointer;}
+			
+			.post-actions .dropdown-menu a:hover, .post-actions .dropdown-menu a:active, .post-actions .dropdown-menu a:focus{
+				background: {AccentColor} !important;
+				color: #fff !important;
+			}
+
+			.dropdown-menu span[class^="icon-"]{
+				position: relative;
+				top: 1px;
+				padding-right: 5px;
+			}
+
 			@media(max-width:767px){
-				.heart-reblog {
+				.post-actions {
 					width:50%;
 					text-align:center;
 					margin:0.75em auto 0;
+		 			-webkit-justify-content: center; 
+					justify-content: center;
 				}
 			}
 			
 			@media(min-width:768px and max-width:991px){
-				.heart-reblog .btn-like, .heart-reblog .btn-reblog {
+				.post-actions .btn-like, .post-actions .btn-reblog {
 					padding-left:1em;
 				}
 			}
@@ -769,10 +844,10 @@
 			{/block:Panorama}
 			
 			<div class="row contents">
-				<aside class="col-sm-3">
+				<aside class="col-sm-3 post-info">
 					
 					<p>
-					{block:Date}<a href="{Permalink}" >
+					{block:Date}<a href="{Permalink}" ><time datetime="{Year}-{MonthNumberWithZero}-{DayOfMonthWithZero} {24HourWithZero}:{Minutes}">
 					
 						{block:IfFullDatesOnPosts}
 							{Month} {DayOfMonth}, {Year}
@@ -782,7 +857,7 @@
 							{TimeAgo}
 						{/block:IfNotFullDatesOnPosts}
 					
-					</a>{/block:Date}
+					</time></a>{/block:Date}
 					<a class="pull-right moreinfo-toggle visible-xs" >{lang:See More}</a>
 					{block:IfShowPostAuthors}
 						<br class="hidden-xs" /><a href="{PostAuthorURL}" title="{PostAuthorTitle}" class="hidden-xs" > {lang:By PostAuthorName}</a>
@@ -807,12 +882,30 @@
 					
 					</div>
 					
-					{block:IfShowLikeandReblogButtons}
-					<div class="heart-reblog {block:PermalinkPage}hidden{/block:PermalinkPage}" >
+					<div class="post-actions {block:PermalinkPage}hidden{/block:PermalinkPage}" >
+					
+					{block:IfShowLikeButton}
 					<div class="btn-like">{LikeButton color="grey" size="24"}</div>
+					{/block:IfShowLikeButton}
+					
+					{block:IfShowReblogButton}
 					<div class="btn-reblog">{ReblogButton color="grey" size="24"}</div>
+					{/block:IfShowReblogButton}
+					
+					{block:IfShowShareButton}
+					<div class="btn-share dropdown">
+					    <a class="dropdown-toggle" id="sharemenu" data-toggle="dropdown" aria-expanded="true"><span class="icon-share"></span></a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="sharemenu">
+							<li role="presentation"><a role="menuitem" tabindex="-1" target="_blank" href="{URLEncodedPermalink}"><span class="icon-link"></span> Permalink</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="mailto:?body={URLEncodedPermalink}"><span class="icon-mail"></span> Email</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" target="_blank" href="https://twitter.com/intent/tweet?url={URLEncodedPermalink}{block:Twitter}&via={TwitterUsername}{/block:Twitter}"><span class="icon-twitter"></span> Twitter</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={URLEncodedPermalink}"><span class="icon-facebook"></span> Facebook</a></li>
+							{block:Photo}<li role="presentation"><a role="menuitem" tabindex="-1" target="_blank" href="https://www.pinterest.com/pin/create/button/?url={URLEncodedPermalink}&media={PhotoURL-HighRes}&description={PhotoAlt}"><span class="icon-pinterest"></span> Pinterest</a></li>{/block:Photo}
+						</ul>
 					</div>
-					{/block:IfShowLikeandReblogButtons}
+					{/block:IfShowShareButton}
+
+					</div>
 					
 				</aside>
 				<section class="col-sm-9 ">
@@ -980,6 +1073,8 @@
 		
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		
+		<script src="http://static.tumblr.com/d7ounoy/Xp3ngk2pj/bootstrap.min.js"></script>
+		
 		{block:IfGoogleAnalyticsID}
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -995,8 +1090,7 @@
 		
 		{block:IfDisqusShortname}
 		<script type="text/javascript">
-		var disqus_shortname = '{text:Disqus Shortname}'; // required: replace example with your forum shortname
-		/* * * DON'T EDIT BELOW THIS LINE * * */
+		var disqus_shortname = '{text:Disqus Shortname}';
 		(function () {
 			var s = document.createElement('script'); s.async = true;
 			s.type = 'text/javascript';
